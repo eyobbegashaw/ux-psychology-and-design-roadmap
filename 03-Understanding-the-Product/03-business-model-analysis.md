@@ -1,0 +1,19 @@
+This file ensures the behavioral change we're engineering creates value that the business can sustainably capture. The exchange of value—the user giving money, data, or attention in return for a service—is the single most psychologically fraught moment in the entire user journey.
+
+**1. The Value Exchange is an Equation of Perceived Fairness**
+The user is engaging in a mental transaction, comparing the perceived value of the problem being solved against the perceived cost. Our product lives or dies on this perception.
+- **The "Pain Gap" and Willingness to Pay:** The user's willingness to pay is directly proportional to the intensity of the pain your product solves. A project management tool solves a higher-order pain for a project manager than a simple to-do list, and can therefore command a higher price. Our user research must quantify this pain. How many hours are lost? What's the dollar cost of that lost time? This quantification becomes the rational anchor for our pricing.
+- **Pricing Page as a Psychological Intervention:** The pricing page is the final scene of the behavioral movie we've been scripting. Every principle comes to bear:
+    - **Loss Aversion:** Annual plans leverage the "lock-in" fear. "You'll lose this 20% discount if you choose monthly."
+    - **Anchoring & Decoy:** The "most popular" plan is visually dominant, creating a safe default for System 1.
+    - **Friction:** The checkout process for a high-commitment plan should have minimal friction. For a free plan, a smidge more friction (e.g., asking for a team size) can make it feel substantial.
+- **Dev Note on the "Moment of Truth":** The payment form is not just a component; it's a hospital operating room. It must be surgically clean, impeccably secure, and fully transparent. A single unexpected tax line item at the final step is a massive cognitive violation that can break the entire value exchange, triggering immediate distrust.
+
+**2. Sustainable Business Models and Long-Term Psychology**
+The business model itself has a psychological impact on the user.
+- **Subscription vs. Pay-per-Use:** Subscriptions create a "sunk cost" psychological commitment and encourage engagement to "get my money's worth." This is a path to habitual use. Pay-per-use keeps users in a constant transaction-analysis mode (System 2), evaluating every action for its cost. This can be stressful and suppress explorative behavior. You choose the model based on the type of relationship you want.
+- **Ad-Supported: The User as the Product:** The business model is attention. The psychological engineering is now a three-sided market: the user, the advertiser, and the platform. We are designing for two very different customers. The ethical obligation is profound. The metrics shift to "time on site" and "ad viewability," which can create a dark incentive to build addictive, high-anxiety loops (e.g., outrage-driven news feeds). As a UX Psychology Master, you must be the ethical counterweight in the room, flagging the long-term mental health and trust implications of a purely ad-optimized model.
+
+**3. The "Ethics as a Service" Architecture**
+This folder's final output is a set of architectural principles. We must build systems that monitor the psychological health of our user base.
+- *A Churn-and-Burn Detection System:* If a user is on a path of high engagement but it's correlated with negative sentiment (e.g., lots of late-night usage, high scrolling but low content creation, rapid, angry commenting), our monitoring system should flag them. This isn't a healthy habit; it's an anxiety-driven compulsion. A truly sustainable business model might have a "circuit breaker" feature that gently nudges this user: "You've been reading for a while, how about an article on a different topic?" This isn't just ethical design; it's the architecture of long-term trust, which is the ultimate moat for any product. The business model of trust is the only one that lasts.

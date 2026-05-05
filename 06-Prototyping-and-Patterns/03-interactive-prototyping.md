@@ -1,0 +1,17 @@
+
+ 
+This file elevates the prototype from a high-fidelity mockup to the ultimate scientific instrument: a falsifiable, interactive model of a behavioral theory. We don't prototype a "page"; we prototype a "predicted psychological state-transition machine."
+
+**1. The Prototype as a Hypothesis**
+Every prototype should start with a formal, written hypothesis: "We believe that by replacing the standard 5-field sign-up form with a single magic-link email flow, we will reduce the cognitive anxiety of commitment and increase the 'Free Trial Sign-up' rate for our High-Uncertainty-Avoidance persona from 2% to 5%."
+- The prototype is built to test this single, specific psychological mechanism, not a general idea. This constrains scope brutally. We are not building a working authentication system; we are building a facade that perfectly simulates the visual and temporal feedback of a magic-link flow. The prototype isn't "broken" because the link in the email doesn't work; it's broken if it doesn't simulate the 3-second delay for the email to arrive with a realistic in-app "Waiting for you..." state, because that delay is the psychological variable being tested.
+
+**2. The "Wizard of Oz" Prototype: The Psychologist as the Backend**
+The most powerful interactive prototype often has a human pulling the strings behind a curtain, not a real backend.
+- *The Method:* A user interacts with a high-fidelity prototype. They speak a command ("Show me a cheaper option"). A "facilitator" in another room types the response ("Here are 3 value picks under $50"), and the prototype dynamically changes instantly. The user believes they are interacting with an AI.
+- *The Value:* This tests the *ceiling* of the experience before a single line of backend AI code is written. It directly probes the user's System 1 expectations. What language do they naturally use? What are their emotional reactions to a perfectly-correct, instant response? This raw psychological data is the perfect specification for the NLP model and API response structure you will eventually build. You're reverse-engineering the algorithm of human desire.
+
+**3. The Prototype's Handoff: From "Acceptance Criteria" to "Behavioral Specifications"**
+The final output of a successful interactive prototype isn't just a green-light to build; it's a detailed behavioral specification document.
+- *Micro-Interaction Spec:* A user's smile (observed in testing) when a task completion animation played is a KPI. The prototype records the exact duration, easing curve, and visual parameters of that animation. The developer's job is to replicate these parameters with pixel-perfect, time-perfect, easing-perfect fidelity. The CSS `cubic-bezier()` value isn't an arbitrary choice; it's a *neuro-aesthetic* specification derived from a validated emotional response.
+- *The "No-Code" Handoff to Code:* A tool like Framer or ProtoPie, from which the developer can extract the exact CSS, SVG easing curves, and interaction logic, turns the behavioral experiment into a direct technical spec. This closes the loop from psychology master to pixel-perfect developer, ensuring the live product faithfully embodies the validated psychological model. The prototype is the codex of the user's mind.
